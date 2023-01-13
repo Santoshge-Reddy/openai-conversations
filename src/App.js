@@ -17,7 +17,7 @@ const Chatbot = () => {
 
     try {
       const response = await axios.post(
-        'https://cors-anywhere.herokuapp.com/https://api.openai.com/v1/conversations/',
+        'https://api.openai.com/v1/conversations/',
         {
           prompt: input,
           conversation_id: conversationId,
